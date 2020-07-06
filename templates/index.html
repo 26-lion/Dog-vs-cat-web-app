@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {text-align: center;}
+        form{text-align: center;}
+    </style>
+    <title>DOG VS CAT</title>
+</head>
+<body>
+    <h1>DOG VS CAT CLASSIFIER</h1>
+    <p>Is it a dog or a cat?<br> Upload a picture of it below and click to find out</p>
+    <form action="prediction" method="post" enctype="multipart/form-data">
+        <div>
+         <input type="file" name="img" placeholder="img" accept="image/*" />
+        </div>
+        <br>
+        <div>
+        <input type="submit" value="predict" />
+        </div>
+    </form>
+
+</body>
+</html> 
